@@ -26,7 +26,7 @@
 
 ##### 舵机支架
 
-舵机支架来自开源3d模型网站[thingiverse](https://www.thingiverse.com/thing:251911)，并去除其中多余的第三舵机部分，见model.stl文件
+舵机支架来自开源3d模型网站[thingiverse](https://www.thingiverse.com/thing:251911)，并去除其中多余的第三舵机部分，见 model.stl 文件
 
 效果如下：
 
@@ -52,7 +52,7 @@
 
 ##### DS3231.h
 
-在Arduino IDE中，选择项目-加载库-添加zip，加入项目中的 ==DS3231.zip== 文件进行安装。
+在Arduino IDE中，选择项目-加载库-添加zip，加入项目中的 DS3231.zip 文件进行安装。
 
 **库函数默认 A4 对应 DS3231 的 SDA ，A5 对应 DS3231 的 SCL**
 
@@ -76,7 +76,7 @@
 
 #### 3、运行代码
 
-打开==plotclock.ino==，根据注释调整相关模型参数，初次使用请开启调试模式，即去掉 `ADJUST` 的注释进行舵机臂位置的调试，去掉 `GPIO` 进行发光二极管的调试。
+打开 plotclock.ino ，根据注释调整相关模型参数，初次使用请开启调试模式，即去掉 `ADJUST` 的注释进行舵机臂位置的调试，去掉 `GPIO` 进行发光二极管的调试。
 
 ```c++
 #define normal_mode     // 开启正常模式
